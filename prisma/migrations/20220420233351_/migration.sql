@@ -4,5 +4,5 @@ CREATE TABLE "Comic" (
     "title" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "hover" TEXT NOT NULL,
-    "comic" TEXT NOT NULL
+    "source" TEXT NOT NULL
 );

@@ -7,10 +7,13 @@ generator client {
     provider = "prisma-client-js"
 }
 
+// Comic model
 model Comic {
     id          Int    @id @default(autoincrement())
     title       String
     description String
     hover       String
-    comic       String
+    source      String
+    height      Int    @default(480)
+    width       Int    @default(768)
 }
