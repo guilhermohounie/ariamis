@@ -1,7 +1,17 @@
 {
   "name": "ariamis",
   "version": "0.1.0",
+  "author": {
+    "name": "Guilhermo Hounie"
+  },
+  "description": "Web comics of a cyberspace homeboy.",
+  "homepage": "https://www.ariamis.hounie.me",
+  "keywords": [
+    "blog",
+    "webcomics"
+  ],
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
