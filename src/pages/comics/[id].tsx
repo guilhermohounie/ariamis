@@ -61,6 +61,7 @@ const ComicPage: NextPage<ComicPageProps> = ({ comic, count }) => {
           width={width}
           quality="100"
           layout="intrinsic"
+          className="bg-gray-100"
         />
         <p>{description}</p>
       </div>
