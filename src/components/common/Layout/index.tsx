@@ -18,8 +18,8 @@ export const Layout: FC<LayoutProps> = ({ children, ...props }) => {
             <Image
               src="/assets/media/logo.png"
               alt="logo"
-              height={66}
-              width={69}
+              height={69}
+              width={66}
             />
             <h1 className="text-3xl">Ariamis</h1>
             <p>Webcomics of an alter ego.</p>
