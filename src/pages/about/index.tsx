@@ -30,7 +30,7 @@ const AboutPage: NextPage = () => {
         ocurrences.
       </p>
       <p>
-        I'm no artists, btw. Most of my stuff will always be plain and simple,
+        I'm no artist, btw. Most of my stuff will always be plain and simple,
         coming from observations and annotations inside my head while I live
         life.
       </p>

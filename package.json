@@ -14,7 +14,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn prisma:generate && next build",
     "start": "next start",
     "lint": "next lint",
     "prisma:studio": "prisma studio",
@@ -26,7 +26,8 @@
   "dependencies": {
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "sharp": "^0.30.4"
   },
   "devDependencies": {
     "@prisma/client": "^3.12.0",

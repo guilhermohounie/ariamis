@@ -22,7 +22,7 @@ export const Layout: FC<LayoutProps> = ({ children, ...props }) => {
               width={66}
             />
             <h1 className="text-3xl">Ariamis</h1>
-            <p>Webcomics of an alter ego.</p>
+            <p>Webcomics of a cyberspace homeboy.</p>
           </div>
           <ul className="flex flex-wrap gap-4">
             <li>
